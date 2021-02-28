@@ -1,0 +1,73 @@
+/* === GLOBAL === */
+
+body{
+    color: #000;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Raleway';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+h1{
+    font-size: 72px;
+}
+
+h2{
+    font-size: 64px;
+}
+
+h3{
+    font-size: 36px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+/* === LAYOUT === */
+
+#error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#error h1{
+    color: #EF3459;
+}
+
+#exampleSection{
+    width: 100%;
+    height: calc(100vh - 57px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#exampleSection h1{
+    color: #EF3459;
+}
+
+
+/* === MOBILE === */
+
+@media only screen and (max-width: 600px) {
+    
+   
+
+}
+
+
+
+
