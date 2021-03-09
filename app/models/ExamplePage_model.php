@@ -1,10 +1,13 @@
 <?php
-    class ExamplePage_model extends Model{
-        function __construct(){
-            parent::__construct();
-        }
+namespace ZoliszMVC\Models;
+use ZoliszMVC\Core\Model as Model;
 
-        public function exampleMethod(){
-            
-        }
+class ExamplePage_model extends Model{
+    function __construct(){
+        parent::__construct();
     }
+
+    public function exampleMethod(){
+            
+    }
+}

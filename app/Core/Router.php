@@ -1,4 +1,7 @@
 <?php
+namespace ZoliszMVC\Core;
+use ZoliszMVC\Controllers;
+
 class Router{
 
     function __construct(){
@@ -30,7 +33,8 @@ class Router{
             $file = '../app/controllers/' . $this->controller . '.php';
             if(file_exists($file)){
                 require_once $file;
-                $this->control = new $this->controller($this->params);
+                $namespace =  'ZoliszMVC\Controllers\\' . $this->controller;
+                $this->control = new $namespace($this->params);
             }else{
                 $flag = 'error';
             }

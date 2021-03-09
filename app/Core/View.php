@@ -1,4 +1,6 @@
 <?php
+namespace ZoliszMVC\Core;
+
 class View{
 
     public function render(){
